@@ -21,8 +21,22 @@ export default class NewsItem extends React.Component{
 		         	</a>
 		         </span>
 		       }
+		       //语句中&&操作符的意思，
+		       // if(this.props.item.url){
+		       // 		return (
+		       // 			<span className="newsItem-domain">
+				     //     	<a href={'https://news.ycombinator.com/from?site=' + this.getDomain()}>
+				     //     		({this.getDomain()})
+				     //     	</a>
+				     //    </span>
+		       // 		)
+		       // }else{
+		       // 		return  this.props.item.url  //也就是undefined
+		       // }
 		         
 		     </div>
+		       }
+		       }
 		)
 	}
 	getCommentLink() { // 评论链接
